@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MARRALOMEDA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="nav" class="w3-top" style="display: flex;">
+    <div>
+	<img src="img/marralomeda_Logo1_2.png" alt="logo" id="logo">
+  </div>
+  <div class="w3-bar w3-blue" style="display: flex; justify-content: space-around; height:70px; margin-top: 15px; text-align:center;">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+	<a href="#aboutUs" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT MARRALOMEDA</a>
+    <a href="#philosophy" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHILOSOPHY</a>
+    <a href="#activityCentre" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ACTIVITY CENTRE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="src/management.html" class="w3-bar-item w3-button">Management</a>
+        <a href="src/trustees.html" class="w3-bar-item w3-button">Trustees</a>
+      </div>
+    </div>
+	  </div>
+
+
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px" >
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+  <a href="#aboutUs" class="w3-bar-item w3-button w3-padding-large">ABOUT MARRALOMEDA</a>
+  <a href="#philosophy" class="w3-bar-item w3-button w3-padding-large">PHILOSOPHY</a>
+  <a href="#activityCentre" class="w3-bar-item w3-button w3-padding-large">ACTIVITY CENTRE</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT US</a>
+  <a href="src/management.html" class="w3-bar-item w3-button w3-padding-large">MANAGEMENT</a>
+  <a href="src/trustees.html" class="w3-bar-item w3-button w3-padding-large">TRUSTEES</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:-50px">
+
+  <!-- Automatic Slideshow Images -->
+  <div id="slideShow">
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/IMG_7073_meitu_3.JPG" style="width:100%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1 class="background"style="font-size:80px; color: blue;">Welcome to Marralomeda</h1>
+	  <h1 class="background"style="color: blue;">The Best Place on Earth</h1>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/IMG_6997_meitu_2.JPG" style="width:100%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1 class="background"style="font-size:80px; color: blue;">Our Mission Statement</h3>
+      <h1 class="background"style="font-size:25px; color: blue;">The Marralomeda Community exists so that people with an intellectual disability may have the dignity and quality of life that is their birthright.</h1>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/IMG_6981_meitu_1.JPG" style="width:100%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1 class="background" style="font-size:80px; color: blue;">Welcome to Marralomeda</h1>
+	  <h1 class="background" style="color: blue;">Each person is accepted as “the light of Christ”</h1>
+    </div>
+  </div>
+  </div>
+<!--The AboutUs Section-->
+  <div class="w3-container w3-content w3-center" style="max-width:1200px; padding-top: 120px;" id="aboutUs">
+    <h2 class="w3-wide">MARRALOMEDA</h2>
+    <p class="w3-opacity"><i>Marralomeda is an Aboriginal word meaning “Best Place on Earth”</i></p>
+    <p class="w3-justify">Marralomeda is a Christian community where people with and without intellectual disability share life together. Nineteen people with intellectual disability live in four homes in Redwood with those who support them. Through ordinary daily activities we support each other and enable the unique gift of each person to be recognised and celebrated.</p>
+    <p class="w3-justify">In November 1989 Anne-Marie and Roger Pike and their family welcomed Ann Miller and Margaret Bowring from the Templeton Centre in Christchurch to live with them.  Since then many other people with an intellectual disability have made Marralomeda their home.  Marralomeda was inspired by the concept of the L’Arche communities founded by Jean Vanier.</p>
+    <p class="w3-justify">We are a community that:</p>
+	<ul class="w3-justify list-group">
+		<li class="list-group-item">Welcomes</li>
+		<li class="list-group-item">Prays</li>
+		<li class="list-group-item">Helps Each Other</li>
+		<li class="list-group-item">Celebrates</li>
+	</ul>
+
+    <div class="w3-row w3-padding-32 container">
+      <div class="w3-third">
+        <img src="img/IMG_7209.JPG" class="w3-round w3-margin-bottom img-thumbnail" alt="Activity Photo" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="img/IMG_7031.JPG" class="w3-round w3-margin-bottom img-thumbnail" alt="Activity Photo" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="img/IMG_6886.JPG" class="w3-round img-thumbnail" alt="Activity Photo" style="width:60%">
+      </div>
+    </div>
+  </div>
+  
+  <!-- The Philosophy Section -->
+    <div class="w3-blue">
+  <div class="w3-container w3-content w3-center" style="max-width:1200px;padding-top: 120px;" id="philosophy">
+    <h2 class="w3-wide">OUR PHILOSOPHY</h2>
+    <p class="w3-justify">Marralomeda is a Christian community. We believe that each person with an intellectual disability is fully a person with all the rights of a human being and above all the right to be loved, recognised and respected for him/herself.</p>
+	<p class="w3-justify">Because Marralomeda is a Christian community, prayer is part of daily experience.</p>
+	<p class="w3-justify">There is no hierarchy of importance at Marralomeda. Each person in the community is accepted as they are and valued for who they are, their gift is precious to the community. Each person is accepted as “the light of Christ”.</p>
+	<p class="w3-justify">Marralomeda is not only a facility for persons with intellectual disability, it is a community where people come together to grow in bonds of friendship. </p>
+	<p class="w3-justify">Through walking with each other as we journey through the dailyness of our lives we celebrate our gifts and support each other in our various disabilities. </p>
+	<p class="w3-justify">No one person has all the gifts to make the community truly alive, therefore we rely on one another. Our intellectually disabled members often reveal to us our own preoccupation with the so-called “important” things of life and can forget how to enjoy life, to celebrate and to cherish relationships in a simple way. </p>
+	<p class="w3-justify">Central to our philosophy is the concept of empowerment. We seek to empower our community members to choose and decide for themselves and to contribute to all tasks pertaining to the running of their home and community to the level possible for each individual.</p>
+	<p class="w3-justify">We believe in community integration and encourage our community members to participate in activities within the wider community and offer support to enable this to happen.</p>
+	<p class="w3-justify">Hospitality is also central to Marralomeda philosophy. Whoever comes to the door is welcomed in an appropriate way and made to feel valued and important. </p>
+	<p class="w3-justify">We believe the busyness of daily life must never overtake the unexpected call to welcome.</p>
+	<br /><br />
+	<p class="italic">“TO LOVE PEOPLE IS TO RECOGNISE THEIR GIFT AND TO HELP THEM USE IT AND DEEPEN IT. A COMMUNITY IS BEAUTIFUL WHEN ALL ITS MEMBERS ARE USING THEIR TALENTS FULLY”.</p>
+	<p class="right-alignment">--- Jean Vanier</p>
+
+  </div>
+</div>
+  <!-- The Activity Centre Section -->
+
+    <div class="w3-container w3-content" style="max-width:1200px; padding-top: 120px;" id="activityCentre">
+      <h2 class="w3-wide w3-center">ACTIVITY CENTRE</h2>
+      <p class="w3-opacity w3-center"><i>Welcome to join us!</i></p><br>
+	  <p class="w3-justify">The Marralomeda Activity Centre was opened in May 1994 and provides a stimulating but gentle day programme with regular community participation.  Our programme runs Monday to Friday from 9am until 3.30pm.  We also welcome people who are not living at Marralomeda to join in the Activity Programme.  To contact the Activity Centre please phone 03-352-3007.  </p>
+	  <p class="w3-justify">The Activity Centre programme includes-</p>
+		<ul class="w3-justify">
+			<li>Community Participation</li>
+			<li>Volunteering</li>
+			<li>Knitting</li>
+			<li>Cooking</li>
+			<li>Card Making</li>
+			<li>Swimming</li>
+			<li>Creative Art</li>
+			<li>Computer Skills</li>
+			<li>Gentle Exercise</li>
+			<li>Gardening</li>
+			<li>Recreation Activities</li>
+		</ul>
+
+    <div class="w3-row w3-padding-32 container">
+      <div class="w3-third">
+        <img src="img/IMG_6933.JPG" class="w3-round w3-margin-bottom rounded-circle" alt="Activity Photo" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="img/IMG_6932.JPG" class="w3-round w3-margin-bottom rounded-circle" alt="Activity Photo" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="img/IMG_6876.JPG" class="w3-round rounded-circle" alt="Activity Photo" style="width:60%">
+      </div>
+    </div>
+    </div>
+ 
+  <!-- The Contact Section -->
+  <div class="w3-blue">
+  <div class="w3-container w3-content" style="max-width:1200px; padding-top: 120px;" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT US</h2>
+    <p class="w3-opacity w3-center"><i>For further information please contact us</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        </i> Marralomeda Charitable Trust<br>
+		<i class="fa fa-map-marker" style="width:30px"></i> 50A Dunedin Street Redwood, CHCH 8051<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 352-8292<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: admin@marralomeda.org.nz<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- End Page Content -->
+</div>
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:600px; padding-top: 120px;" class="w3-grayscale-max"></div>
+<script>
+function myMap() {
+  myCenter=new google.maps.LatLng(-43.477464, 172.623478);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1vrEb8bYSe5B1ntJITyR2lwXb8kDFH_0&callback=myMap"></script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-opacity w3-light-grey w3-xlarge">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col bg-primary">
+		<h2 class="w3-center">Employment</h2>
+		<br />
+		<p>Marralomeda employs people in a variety of roles to support our Community Members. We are often looking for Community Support Workers, Residential Assistants and Volunteers.</p>
+        <p>If you are interested in working at Marralomeda in either a paid or unpaid capacity then please <a class="text-dark"href="../homepage.html#contact">contact us</a> to see what is available.</p>
+	
+	</div>
+    <div class="col bg-light text-dark">
+		<h2 class="w3-center">Funding</h2>
+		<br />
+		<p>Marralomeda is a non-profit Charitable Trust which is governed by a voluntary Board of Trustees. Legacies or donations in support of Marralomeda Charitable Trust Inc. will be most gratefully received. All donations are tax deductible.</p>
+		<p>Please <span><a class="text-dark"href="../homepage.html#contact">contact us</a></span> for further information.</p>
+	</div>
+	<div class="col bg-primary container">
+		<h2 class="w3-center">Helpful Links</h2>
+		<br />
+		<ul class="list-group">
+			<li class="list-group-item"><a href="https://www.nzdsn.org.nz/">NZ Disability Support</a></li>
+			<li class="list-group-item"><a href="https://www.publictrust.co.nz/">Public Trust</a></li>
+			<li class="list-group-item"><a href="https://www.charities.govt.nz/">NZ Charities</a></li>
+			<li class="list-group-item"><a href="https://volcanmatch.com/">Volunteer</a></li>
+		</ul>
+	</div>
+
+  </div>
+  </div>
+  <div class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">© 2018 Marralomeda Charitable Trust</p>
+  </div>
+</footer>
+<!-- Automatic Slideshow - change image every 4 seconds-->
+
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
+
+</body>
+</html>

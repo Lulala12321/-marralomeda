@@ -1,0 +1,30 @@
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+}
+.mySlides {
+	display: none;
+}
+#slideShow {
+	margin-top: 132px;
+	display: flex;
+	
+	
+}
+.background{
+	padding: 10px;
+	background-color: #FFF;
+	border-radius:25px;
+    filter:alpha(opacity=60);
+    opacity:0.6;
+}
+#navDemo, #nav {
+	z-index: 2;
+}
+.italic {
+	font-style: italic;	
+}
+.right-alignment{
+    display: flex;
+    flex-direction: row-reverse;
+}
